@@ -1,0 +1,37 @@
+# MacOS
+.DS_Store
+Thumbs.db
+
+# NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Application
+lib
+dist
+tmp/
+
+# VSCode
+.vscode/
+
+# awesome-typescript-loader
+.awcache
+
+# Testing
+packages/*/coverage
+test-report.xml
+.jest-cache
+
+# IntelliJ
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+coverage
+.stylelintrc
+build
+.wizard
+.gradle

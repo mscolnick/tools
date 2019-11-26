@@ -1,0 +1,37 @@
+{
+    "globals": {
+        "ts-jest": {
+            "tsConfigFile": "<rootDir>/src/tsconfig.test.json"
+        }
+    },
+    "moduleFileExtensions": [
+        "js",
+        "ts",
+        "tsx",
+        "node",
+        "json"
+    ],
+    "modulePathIgnorePatterns": [
+        "<rootDir>/dist"
+    ],
+    "roots": [
+        "<rootDir>/src"
+    ],
+    "testMatch": [
+        "<rootDir>/src/**/__tests__/**/*.{ts,tsx}"
+    ],
+    "testPathIgnorePatterns": [
+        "/node_modules/",
+        "/__utils__/",
+        "/__fixtures__/",
+        "/__mocks__/",
+        "/__mock__/"
+    ],
+    "testURL": "https://localhost/",
+    "transform": {
+        "^.+\\.(t|j)sx?$": "<rootDir>/node_modules/ts-jest/dist/index.js"
+    },
+    "transformIgnorePatterns": [
+        "/node_modules/(?!(lodash-es)/)"
+    ]
+}
